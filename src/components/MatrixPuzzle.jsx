@@ -71,7 +71,7 @@ const MatrixPuzzle = () => {
         </div>
     
        </div> 
-       {/* <div
+       <div
         id="rows"
         className="font-bold rounded h-100 my-1 relative right-12 rotate-180"
       >
@@ -89,7 +89,7 @@ const MatrixPuzzle = () => {
            <MatrixIndividuals columns={4} rows={4} NumberOfCategories={3}/>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

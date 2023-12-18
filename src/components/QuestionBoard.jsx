@@ -27,7 +27,7 @@ function QuestionBoard() {
         ))}
       </div>
 
-      <div className="dataToShow transition-opacity duration-300">
+      <div className="dataToShow transition-opacity duration-300 my-4">
         {renderTab === "Clues" ? <Clues /> : renderTab === "Story" ? <Story /> : <Answer />}
       </div>
     </div>

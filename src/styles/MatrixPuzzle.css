@@ -1,0 +1,31 @@
+#rows{
+  writing-mode: vertical-rl;
+}
+
+.categories{
+  writing-mode: vertical-lr;
+  padding:3px;
+  margin: 1px 2px ;
+}
+
+.categories:hover{
+  /* background-color: rgba(246, 235, 235, 0.576); */
+  background-color: indigo;
+  color: white;
+  border-radius: 6px;
+}
+
+#category-2 .categories{
+}
+.categories {
+  padding:6px 5px;
+  margin:6px 3px;
+  /* border-radius: .4rem; */
+  cursor: pointer;
+  border-left:.01rem solid rgba(46, 44, 44, 0.619);
+}
+
+body{
+  /* background:  image("https://multi-board-todo-handler.netlify.app/static/media/download.8d1b935f6295303aceec.svg"); */
+  background-image:url("https://multi-board-todo-handler.netlify.app/static/media/download.8d1b935f6295303aceec.svg");
+}
